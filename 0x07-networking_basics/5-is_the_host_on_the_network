@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Pings an ID address a number of times
+
+if [ -n "$1" ];
+then
+	ping -c 6 "$1"
+else
+	echo "Usage: $0 {IP_ADDRESS}"
+fi
