@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Getting response from an apache server
+
+sudo service apache2 start
