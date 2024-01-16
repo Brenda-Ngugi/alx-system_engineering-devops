@@ -7,7 +7,7 @@ def recurse(subreddit, hot_list=[], after=None):
     """ A recurcive function to query Reddit API and rerturn a list
     of all hot articles """
     url = 'http://www.reddit.com/r/{}/hot.json'.format(subreddit)
-    headers = {'user-agent': 'briansAPI'}
+    headers = {'user-agent': 'breasAPI'}
 
     if after:
         url += '?after={}'.format(after)
